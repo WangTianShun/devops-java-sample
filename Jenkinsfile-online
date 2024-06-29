@@ -13,7 +13,7 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'harbor-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = '192.168.119.133/'
+        REGISTRY = '192.168.119.133'
         DOCKERHUB_NAMESPACE = 'gulimall'
         GITHUB_ACCOUNT = 'WangTianShun'
         APP_NAME = 'devops-java-sample'

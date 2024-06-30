@@ -10,7 +10,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = credentials('harbor-id')
+        DOCKER_CREDENTIAL_ID = 'harbor-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = '192.168.119.133'
